@@ -1,66 +1,53 @@
-.banner {
-    width: 100%;
-    height: 1000px;
-    min-height: 100%;
-    z-index: -999;
-    background: url(/media/images/city.jpg) no-repeat center center;
-    margin: 0;
-    padding-top: 210px;
-}
-
-.banner-info {
-    color: #fff;
-    margin: 0;
-    font-family: 'Lato', sans-serif;
-    font-weight: 100;
-}
-
-    .banner-info h1 {
-        color: #fff;
-        margin: 0;
-        font-family: 'Lato', sans-serif;
-        font-weight: 100;
-        font-size: 3.8em;
-    }
-
-    .banner-info p {
-        font-style: italic;
-        font-size: 1.2em;
-        line-height: 1.8em;
-        width: 70%;
-        margin: 0.8em auto;
-    }
-
-.featured-heading {
-    font-family: 'Lato', sans-serif;
-    font-size: 3.2em;
-    font-weight: 100;
-    color: #FFF;
-}
-
-    .featured-heading-info p {
-        font-family: 'Lato', sans-serif;
-        font-size: 1.1em;
-        line-height: 1.6em;
-        margin: 2em 0;
-        color: #FFF;
-        font-weight: 100;
-    }
-
-.top-grids {
-    background-color: #e8b969;
-    width: 100%;
-    padding: 4em 8em;
-}
-
-.tag-line {
-    width: 100%;
-    height: 620px;
-    z-index: -999;
-    background: url(/media/images/path-bg.png) no-repeat center center;
-    margin: 0;
-    padding: 0;
-}
-
 @import url(http://fonts.googleapis.com/css?family=Lato:100,400);
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,100);
+.banner {
+  width: 100%;
+  height: 1000px;
+  min-height: 100%;
+  z-index: -999;
+  background: url(/media/images/city.jpg) no-repeat center center;
+  margin: 0;
+  padding-top: 210px; }
+
+.banner-info {
+  color: white; }
+  .banner-info h1 {
+    color: white;
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+    font-size: 3.8em; }
+  .banner-info p {
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+    font-size: 1.2em;
+    line-height: 1.8em;
+    width: 70%;
+    margin: 0.8em auto 8em auto; }
+
+.featured-heading {
+  font-family: "Lato", sans-serif;
+  font-size: 3.2em;
+  font-weight: 100;
+  color: white; }
+
+.featured-heading-info p {
+  font-family: "Lato", sans-serif;
+  font-size: 1.1em;
+  line-height: 1.6em;
+  margin: 2em 0;
+  color: white;
+  font-weight: 100; }
+
+.top-grids {
+  background-color: #e8b969;
+  width: 100%;
+  padding: 4em 8em; }
+
+.tag-line {
+  width: 100%;
+  height: 620px;
+  z-index: -999;
+  background: url(/media/images/path-bg.png) no-repeat center center;
+  margin: 0;
+  padding: 0; }
